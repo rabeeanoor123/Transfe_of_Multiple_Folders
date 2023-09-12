@@ -4,11 +4,7 @@ from datetime import datetime
 
 # KEY REPRESENTS THE COMPANY NAMES, VALUES REPRESENTS THE CAMERA NAMES
 fix_data = {
-    'AMD': ["arcelormittal-hamilton-steel-manufacturing-lance"],
-    'KAT': ["katcon-blonie-availability-camera-85", "katcon-blonie-availability-camera-88", "katcon-blonie-quality-camera-134","katcon-blonie-quality-camera-160"],
-    'PM': ["Pridemobility-Duryea-Quantum-Inspection-OP160", "Pridemobility-Duryea-Quantum-Inspection-OP170", "Pridemobility-Duryea-Quantum-Inspection-BaseLine", "Pridemobility-Duryea-Quantum-Inspection-Quality-Line"],
-    'SUZ': ["smc-sagara-inspection-line1-undercover-front", "smc-sagara-inspection-line1-undercover-left", "smc-sagara-inspection-line1-undercover-right", "smc-sagara-inspection-line2-undercover-front", "smc-sagara-inspection-line3-undercover-front", "smc-sagara-inspection-line4-undercover-front", "smc-sagara-inspection-line4-undercover-left"],
-    'RAS': ["rassini-flint-line811-camera-102", "rassini-flint-line811-camera-103", "rassini-flint-line811-camera-104"],
+    
 }
 
 def update_video_data_no_camera(main_folder, saving_folder):
